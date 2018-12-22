@@ -38,6 +38,7 @@ public class MobilePhone {
         }
         this.myContacts.remove(foundPosition);
         System.out.println(contact.getName() + ", was deleted.");
+        return true;
     }
 
     private int findContact(Contact contact) {
